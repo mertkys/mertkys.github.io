@@ -4,7 +4,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #ffffff;
+    color: #000000;
 }
 
 #backgroundBody {
@@ -25,7 +25,7 @@
     margin: 5px 2px;
     border-radius: 50%;
     background: #000000;
-    color: #2f4f4f;
+    color: #4eb1b1;
 }
 
 .fa:hover {
