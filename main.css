@@ -30,14 +30,33 @@
 .fa:hover {
     opacity: 0.7;
 }
-header img{
-    width:100%
-}
-@media only screen and (min-width: 150px) and (max-width:600px)
-{
-img{
-        width: 90%;
-} 
-}
+@media (max-width: 600px){
+    .navbar ul{
+        display:none;
+    }
+    #title h2{
+        position: relative;
+        left:0;
+        top:-20px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .btn{
+        position: relative;
+        left:0;
+        top:-20px;
+        left:100px;
+    }
+    .moon{
+        width:80%;
+        margin: 0 40px 0 40px;
+    }
+    .scroll{
+        position: relative;
+        left:0;
+        margin: 0 0 0 130px;
+    }
+    
+  }
 
   
