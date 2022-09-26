@@ -39,3 +39,7 @@ body {
     background-attachment: fixed;
     background-position: center;
 }
+  #img1 {
+    max-width: 100%;
+    height: auto;
+    }
