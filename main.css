@@ -8,11 +8,12 @@
 }
 
 #backgroundBody {
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
+    width: 100%;
+    height: 600px;
+    background-repeat:no-repeat;
+    background-position: center;
     background: url(arkaplan.png);
-    background-size: cover;
+    background-size: contain;
     background-color:#464646;
 }
 
@@ -43,3 +44,4 @@ body {
     max-width: 100%;
     height: auto;
     }
+    
