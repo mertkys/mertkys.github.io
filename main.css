@@ -61,3 +61,7 @@ nav{
  span{
     color: #ea1538;
  }
+ nav ul li{
+    list-style-type: none;
+    display: inline-block;
+ }
