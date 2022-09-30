@@ -89,3 +89,6 @@ button:hover{
     transform: scale(1.3);
     cursor:pointer;
 }
+h1{
+    color: red;
+}
