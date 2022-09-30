@@ -1,1 +1,1 @@
-# [mertyks.me](https://mertyks.me)
+# [mertyks.me](https://mert.me)
