@@ -53,5 +53,11 @@ nav{
     padding-top: 40px;
     padding-left: 10%;
     padding-right: 10%;
-
 }
+ .logo{
+    color:white;
+    font-size: 28px;
+ }
+ span{
+    color: #ea1538;
+ }
