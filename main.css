@@ -19,9 +19,9 @@ body{
     background-position: center;
 }
 .fa{
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    padding: 30px;
+    font-size: 40px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -40,13 +40,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 40px;
+    padding-top: 50px;
     padding-left: 10%;
     padding-right: 10%;
 }
  .logo{
     color:white;
-    font-size: 28px;
+    font-size: 32px;
  }
  span{
     color:#4eb1b1;
@@ -68,11 +68,11 @@ nav{
 button{
     border: none;
     background: #4eb1b1;
-    padding: 12px 30px;
-    border-radius: 30px;
+    padding: 15px 40px;
+    border-radius: 40px;
     color: white;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
     transition: .4s;
 }
 button:hover{
