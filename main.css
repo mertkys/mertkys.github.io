@@ -7,7 +7,7 @@
     color: #000000;
 }
 .fa:hover{
-    opacity: 0.7;
+    opacity: 1;
 }
 body{
     margin: 0;
@@ -67,7 +67,7 @@ nav{
  }
 button{
     border: none;
-    background: #ea1538;
+    background: #4eb1b1;
     padding: 12px 30px;
     border-radius: 30px;
     color: white;
