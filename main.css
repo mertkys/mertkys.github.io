@@ -20,8 +20,8 @@ body{
 }
 .fa{
     padding: 20px;
-    font-size: 32px;
-    width: 32px;
+    font-size: 30px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -68,11 +68,11 @@ nav{
 button{
     border: none;
     background: #4eb1b1;
-    padding: 15px 40px;
-    border-radius: 40px;
+    padding: 12px 30px;
+    border-radius: 30px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     transition: .4s;
 }
 button:hover{
