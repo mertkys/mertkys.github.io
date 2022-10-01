@@ -19,9 +19,9 @@ body{
     background-position: center;
 }
 .fa{
-    padding: 30px;
-    font-size: 40px;
-    width: 40px;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -46,7 +46,7 @@ nav{
 }
  .logo{
     color:white;
-    font-size: 32px;
+    font-size: 4px;
  }
  span{
     color:#4eb1b1;
@@ -54,7 +54,7 @@ nav{
  nav ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 20px 40px;
+    padding: 30px 40px;
  }
  nav ul li a{
     color:white;
