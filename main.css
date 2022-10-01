@@ -62,12 +62,12 @@ nav{
     font-weight: bold;
  }
  nav ul li a:hover{
-    color: #ea1538;
+    color: #4eb1b1;
     transition: .3s;
  }
 button{
     border: none;
-    background: #ea1538;
+    background: #4eb1b1;
     padding: 12px 30px;
     border-radius: 30px;
     color: white;
