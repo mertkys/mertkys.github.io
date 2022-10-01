@@ -26,8 +26,8 @@ body{
     text-decoration: none;
     margin: 5px 2px;
     border-radius: 50%;
-    background: white;
-    color: black;
+    background: black;
+    color: white;
 }
 .hero{
     height: 100vh;
