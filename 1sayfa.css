@@ -20,3 +20,11 @@ nav ul li a:hover{
    color: #4eb1b1;
    transition: .3s;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
