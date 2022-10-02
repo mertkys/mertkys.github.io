@@ -28,3 +28,12 @@ nav{
     padding-left: 10%;
     padding-right: 10%;
 }
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Arkaplans.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
