@@ -6,3 +6,17 @@
     transform: translate(-50%, -50%);
     color: #000000;
 }
+nav ul li{
+   list-style-type: none;
+   display: inline-block;
+   padding: 20px 40px;
+}
+nav ul li a{
+   color:white;
+   text-decoration: none;
+   font-weight: bold;
+}
+nav ul li a:hover{
+   color: #4eb1b1;
+   transition: .3s;
+}
