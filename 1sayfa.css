@@ -12,7 +12,19 @@ nav ul li{
    padding: 20px 40px;
 }
 nav ul li a{
-    color:white;
-    text-decoration: none;
-    font-weight: bold;
+   color:white;
+   text-decoration: none;
+   font-weight: bold;
+}
+nav ul li a:hover{
+   color: #4eb1b1;
+   transition: .3s;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
 }
