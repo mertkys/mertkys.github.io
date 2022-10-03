@@ -14,6 +14,14 @@
 
 </head>
 <body id="body">
+    <div id="Zaman"></div>
+    <script>
+        function tarihsaat(){
+            var date = new date().toLocalString('tr-TR');
+            document.getElementById('Zaman').innerHTML=date;
+        }
+        setInterval(tarihsaat,1000);
+    </script>
     <div id="textBody">
         <h1 style="font-size:300%;">Hoşgeldiniz</h1>
             <a href="https://www.instagram.com/mert_xpw07/" class="fa fa-instagram" target="_blank" rel="noopener noreferrer"></a>
