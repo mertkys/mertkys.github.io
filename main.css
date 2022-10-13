@@ -55,6 +55,7 @@ nav{
     list-style-type: none;
     display: inline-block;
     padding: 20px 40px;
+    margin: 15px 25px;
  }
  nav ul li a{
     color:white;
