@@ -1,59 +1,84 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link a href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="1sayfa.css" rel="stylesheet"> 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7146179436159551"
-     crossorigin="anonymous"></script>
-     <link rel="icon" href="logo.png" type="image/x-icon"/>  
-    <title>Muhammet Mert Kayış</title> 
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Responsive Headphones Website</title>
+	<!----custom css link---->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	 <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-<main>
- <header>
-    <div class="logo">
-    <a href="#">
-    <img src="logo.png" alt="">
-    </a>
-    </div>
-    <ul>
-     <li>
-        <a href="#">Deneme</a>
-     </li>
-     <li>
-        <a href="#">Deneme1</a>
-     </li>
-     <li>
-        <a href="#">Deneme2</a>
-     </li>
-     <li>
-        <a href="#">Deneme3</a>
-     </li>
-     <li>
-        <a href="#">Deneme4</a>
-     </li>
-    </ul>
-    <ul>
-       <li>
-         <a href="#">
-            <span class="material-symbols-outlined">
-                person
-                </span>
-      </a>
-    </li>
-    <li>
-        <a href="#">
-            <i class="fa-regular fa-user"></i>
-     </a>
-   </li>
-</ul>
- </header>
 
-</main>
+	
+	<header>
+		<a href="#" class="logo"><i class='bx bx-headphone'></i>Soundbox</a>
+
+		<ul class="navbar">
+			<li><a href="#" class="active">Overview</a></li>
+			<li><a href="#">Teach Specs</a></li>
+			<li><a href="#">Reviews</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+
+		<div class="header-icons">
+			<i class='bx bx-cart' ></i>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+
+	<section class="home">
+		<div class="home-img">
+			<img src="img/product1.png" class="one">
+		</div>
+
+		<div class="home-text">
+			<h1>Kablosuz <br> Kulaklık</h1>
+			<h5>Dinlemenin daha akıllı yolu</h5>
+			<h3>₺199.00</h3>
+			<a href="#" class="btn">Şimdi Satın Al</a>
+		</div>
+	</section>
+
+	<div class="main">
+		<div class="row">
+			<li><img src="img/main1.png" onclick="slider('img/product1.png')"></li>
+		</div>
+
+		<div class="row row2">
+			<li><img src="img/main2.png" onclick="slider('img/product2.png')"></li>
+		</div>
+
+		<div class="row row3">
+			<li><img src="img/main3.png" onclick="slider('img/product3.png')"></li>
+		</div>
+
+	</div>
+
+	<a href="#" class="bottom">Scroll Down<i class='bx bx-down-arrow-circle' ></i></a>
+
+	<script type="text/javascript">
+		function slider(anything){
+			document.querySelector('.one').src = anything;
+		};
+
+		let menu = document.querySelector('#menu-icon');
+		let navbar = document.querySelector('.navbar');
+
+		menu.onclick = () => {
+			menu.classList.toggle('bx-x');
+			navbar.classList.toggle('open');
+		}
+	</script>
+
 </body>
 </html>
