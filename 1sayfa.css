@@ -105,6 +105,15 @@ header ul li a{
     font-size: 18px;
 }
 
+.content .item .text a-span{
+    font-size: 20px;
+    display: inline-block;
+    transition: all ease 2s;
+}
+
+.content .item .text a:hover span{
+    transform: rotate(360deg);
+}
 
 
 /* CONTENT-SECTION-FINISH */
