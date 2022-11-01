@@ -43,47 +43,11 @@ header ul li a{
 }
 
 header:hover{
-    background-color: white;
+    background-color: transparent;
 }
 
 header:hover a{
     color: black;
-}
-
-.mega-menu{
-    position: absolute;
-    left: 15%;
-    top: 70px;
-    width: 100%;
-    background-color: white;
-    padding: 20px 100px;
-    border-radius: 5px;
-    display: none;
-}
-header ul li:hover .mega-menu{
-      display: block;
-      width: 100%;
-}
-
-.mega-menu ul li{
-     width: 100%;
-     margin-bottom: 5px;
-     display: inline-block;
-
-}
-
-.mega-menu ul li a{
-     color: orange;
-}
-
-.mega-menu ul li i{
-    font-size: 12px;
-    opacity: 0;
-    transition: all ease 0.5s;
-}
-
-.mega-menu ul li a:hover i{
-    opacity: 1;
 }
 
 /* HEADER-SECTION-FINISH */
