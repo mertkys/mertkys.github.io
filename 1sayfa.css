@@ -43,3 +43,19 @@ header ul li a{
 }
 
 /* HEADER-SECTION-FINISH */
+
+
+
+
+
+/* CONTENT-SECTION-START */
+
+.content{
+    height: 100vh;
+    display: flex;
+}
+
+
+
+
+/* CONTENT-SECTION-FINISH */
