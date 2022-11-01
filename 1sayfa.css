@@ -33,5 +33,10 @@ header{
 
 header ul li{
     display: inline-block;
-    mar
+    margin: 0 15px;
+}
+
+header ul li a{
+    color: black;
+    transition: all ease 0.5s;
 }
