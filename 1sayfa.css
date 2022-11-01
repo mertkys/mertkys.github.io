@@ -27,4 +27,10 @@ header{
      align-items: center;
      justify-content: space-between;
      padding: 20px 100px;
+     transition: all ease 0.5s;
+     z-index: 99999;
+}
+
+header ul li{
+    display: inline-block;
 }
