@@ -58,7 +58,16 @@ header:hover a{
     background-color: white;
     padding: 20px 100px;
     border-radius: 5px;
+    /* display: none; */
 }
+
+.mega-menu ul li{
+     width: 100%;
+     margin-bottom: 5px;
+     display: block;
+
+}
+
 /* HEADER-SECTION-FINISH */
 
 
