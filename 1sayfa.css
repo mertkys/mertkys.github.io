@@ -37,7 +37,7 @@ header ul li{
 }
 
 header ul li a{
-    color: black;
+    color: orange;
     transition: all ease 0.5s;
     font-weight: 500;
 }
