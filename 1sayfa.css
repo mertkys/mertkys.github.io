@@ -94,4 +94,17 @@ header ul li a{
     bottom: 0;
 }
 
+.content .item .text h3{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.content .item .text a{
+    color: white;
+    font-size: 18px;
+}
+
+
+
 /* CONTENT-SECTION-FINISH */
