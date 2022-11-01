@@ -42,6 +42,14 @@ header ul li a{
     font-weight: 500;
 }
 
+header:hover{
+    background-color: white;
+}
+
+header:hover a{
+    color: orange;
+}
+
 /* HEADER-SECTION-FINISH */
 
 
