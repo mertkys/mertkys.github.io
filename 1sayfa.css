@@ -84,5 +84,14 @@ header ul li a{
     padding: 50px 50px 100px;
     color: white;
     display: flex;
+    align-items: flex-end;
+    opacity: 0;
+    transition: all ease 0.5s 0.2s;
 }
+
+.content .item:hover .text{
+    opacity: 1;
+    bottom: 0;
+}
+
 /* CONTENT-SECTION-FINISH */
