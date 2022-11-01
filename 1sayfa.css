@@ -37,17 +37,17 @@ header ul li{
 }
 
 header ul li a{
-    color: orange;
+    color: white;
     transition: all ease 0.5s;
     font-weight: 500;
 }
 
 header:hover{
-    background-color: black;
+    background-color: white;
 }
 
 header:hover a{
-    color: orange;
+    color: black;
 }
 
 .mega-menu{
@@ -55,7 +55,7 @@ header:hover a{
     left: 15%;
     top: 70px;
     width: 100%;
-    background-color: black;
+    background-color: white;
     padding: 20px 100px;
     border-radius: 5px;
     display: none;
