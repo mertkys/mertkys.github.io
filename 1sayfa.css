@@ -43,14 +43,22 @@ header ul li a{
 }
 
 header:hover{
-    background-color: white;
+    background-color: black;
 }
 
 header:hover a{
     color: orange;
 }
 
-.mega-menu{}
+.mega-menu{
+    position: absolute;
+    left: 15%;
+    top: 70px;
+    width: 100%;
+    background-color: white;
+    padding: 20px 100px;
+    border-radius: 5px;
+}
 /* HEADER-SECTION-FINISH */
 
 
