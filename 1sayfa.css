@@ -58,7 +58,11 @@ header:hover a{
     background-color: white;
     padding: 20px 100px;
     border-radius: 5px;
-    /* display: none; */
+    display: none;
+}
+header ul li:hover .mega-menu{
+      display: block;
+      width: 100%;
 }
 
 .mega-menu ul li{
@@ -67,6 +71,11 @@ header:hover a{
      display: block;
 
 }
+
+.mega-menu ul li a{
+     color: black;
+}
+
 
 /* HEADER-SECTION-FINISH */
 
