@@ -53,9 +53,15 @@ header ul li a{
 .content{
     height: 100vh;
     display: flex;
+    flex-wrap: nowrap;
 }
 
-
+.content .item{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    transition: all ease 0.8s;
+}
 
 
 /* CONTENT-SECTION-FINISH */
