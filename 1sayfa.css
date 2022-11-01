@@ -76,6 +76,15 @@ header ul li:hover .mega-menu{
      color: black;
 }
 
+.mega-menu ul li i{
+    font-size: 12px;
+    opacity: 0;
+    transition: all ease 0.5s;
+}
+
+.mega-menu ul li a:hover i{
+    opacity: 1;
+}
 
 /* HEADER-SECTION-FINISH */
 
