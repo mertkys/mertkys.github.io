@@ -12,7 +12,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(arkaplan1.png.png);
+    background-image: url(grup/arkaplan1.png.png);
     background-size:cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,7 +32,7 @@ body{
 .hero{
     height: 100vh;
     width: 100%;
-    background-image:url(arkaplan1.png.png);
+    background-image:url(grup/arkaplan1.png.png);
     background-size: cover;
     background-position: center;
 }
