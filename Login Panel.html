@@ -1,38 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="Login Panel.css">
-  <title>HASH TECHIE OFFICIAL</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Login Panel</title>
 </head>
 <body>
-    <section>
-        <div class="form-box">
-            <div class="form-value">
-                <form action="">
-                    <h2>Login</h2>
-                    <div class="inputbox">
-                        <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" required>
-                        <label for="">Email</label>
-                    </div>
-                    <div class="inputbox">
-                        <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input type="password" required>
-                        <label for="">Password</label>
-                    </div>
-                    <div class="forget">
-                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
-                      
-                    </div>
-                    <button>Log in</button>
-                    <div class="register">
-                        <p>Don't have a account <a href="#">Register</a></p>
-                    </div>
-                </form>
+    
+ <div class="container">
+    <div class="box">
+        <!------------------ Giris --------------------->
+        <div class="box-login" id="login">
+
+            <div class="top-header">
+                <h3>Tekrardan, Merhaba</h3>
+                <small>Geldiğine Sevindim</small>
             </div>
+            <div class="input-group">
+                <div class="input-field">
+                    <input type="text" class="input-box" id="logEmail" required>
+                    <label for="logEmail">E-Posta Adresi</label>
+                </div>
+                <div class="input-field">
+                    <input type="password" class="input-box" id="logPassword" required>
+                    <label for="logPassword">Şifre</label>
+                     <div class="eye-area">
+                            <div class="eye-box" onclick="myLogPassword()">
+                                <i class="fa-regular fa-eye" id="eye"></i>
+                                <i class="fa-regular fa-eye-slash" id="eye-slash"></i>
+                            </div>
+                     </div>
+                </div>
+                <div class="remember">
+                    <input type="checkbox" id="formCheck" class="check">
+                    <label for="formCheck"  > Beni Hatırla</label>
+                </div>
+                <div class="input-field">
+                    <input type="submit" class="input-submit" value="Giriş yap">
+                </div>
+                <div class="forgot">
+                    <a href="#">Parolanızı mı unuttunuz?</a>
+                </div>
+            </div>
+
         </div>
-    </section>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+     <!-------------------- Kayıt --------------------------->
+      
+     <div class="box-register" id="register">
+
+        <div class="top-header">
+            <h3>Şimdi kayıt ol!</h3>
+            <small>Bana katılmak istediğin için mutluyum.</small>
+        </div>
+        <div class="input-group">
+            <div class="input-field">
+                <input type="text" class="input-box" id="regUser" required>
+                <label for="regUser">Kullanıcı adı</label>
+            </div>
+            <div class="input-field">
+                <input type="text" class="input-box" id="regEmail" required>
+                <label for="regEmail">E-Posta</label>
+            </div>
+            <div class="input-field">
+                <input type="password" class="input-box" id="regPassword" required>
+                <label for="regPassword">Şifre</label>
+                 <div class="eye-area">
+                        <div class="eye-box" onclick="myRegPassword()">
+                            <i class="fa-regular fa-eye" id="eye-2"></i>
+                            <i class="fa-regular fa-eye-slash" id="eye-slash-2"></i>
+                        </div>
+                 </div>
+            </div>
+            <div class="remember">
+                <input type="checkbox" id="formCheck-2" class="check">
+                <label for="formCheck-2"> Beni Hatırla</label>
+            </div>
+            <div class="input-field">
+                <input type="submit" class="input-submit" value="Kayıt ol">
+            </div>
+            
+        </div>
+
+    </div>
+
+    <!------------------------ Kaydırma Cubuk -------------------------->
+      
+    <div class="switch">
+        <a href="#" class="login" onclick="login()">Giriş</a>
+        <a href="#" class="register" onclick="register()">Kayıt</a>
+        <div class="btn-active" id="btn"></div>
+    </div>
+
+    </div>
+ </div>
+<script>
+
+     var x = document.getElementById('login');
+     var y = document.getElementById('register');
+     var z = document.getElementById('btn');
+ 
+     function login(){
+        x.style.left = "27px";
+        y.style.right = "-350px";
+        z.style.left = "0px";
+     }
+     function register(){
+        x.style.left = "-350px";
+        y.style.right = "25px";
+        z.style.left = "150px";
+     }
+
+   // Sifreyi Görme Kod
+   
+   
+   function myLogPassword(){
+
+    var a = document.getElementById('logPassword');
+    var b = document.getElementById('eye');
+    var c = document.getElementById('eye-slash');
+
+    if(a.type === "password"){
+        a.type = "text"
+        b.style.opacity = "0";
+        c.style.opacity = "1";
+
+    }else{    
+        a.type = "password"
+        b.style.opacity = "1";
+        c.style.opacity = "0";
+
+    }
+
+   }
+   
+   
+   function myRegPassword(){
+
+var d = document.getElementById('regPassword');
+var b = document.getElementById("eye-2");
+var c = document.getElementById("eye-slash-2");
+
+if(d.type === "password"){
+    d.type = "text"
+    b.style.opacity = "0";
+    c.style.opacity = "1";
+
+}else{    
+    d.type = "password"
+    b.style.opacity = "1";
+    c.style.opacity = "0";
+
+}
+
+}
+</script>
 </body>
 </html>
