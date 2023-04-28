@@ -195,3 +195,8 @@ i{
     box-shadow: 2px 0px 12px rgba(0, 0, 0, 0.1);
     transition: .5s ease-in-out;
 }
+.logo img{
+    width: 100%;
+    max-width: 100px;
+    z-index: 999;
+}
